@@ -30,6 +30,36 @@ header a {
   height: 100vh;
 }
 
+/* ---------- */
+/* Start Menu */
+/* ---------- */
+.start-menu {
+  text-align: center;
+}
+
+.start-menu h1,
+.start-menu p {
+  padding: 20px;
+  font-size: 30px;
+}
+
+.start-menu p {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.start-menu button {
+  color: white;
+  background-color: rgb(143, 61, 153);
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.start-menu button:hover {
+  color: black;
+  background-color: rgb(227, 147, 237);
+}
+
 /* ---------------- */
 /* Question Section */
 /* ---------------- */
@@ -78,4 +108,12 @@ header a {
   border-bottom: 1px solid rgba(37, 30, 38, 75);
   color: rgba(37, 30, 38, 75);
   font-size: 20px;
+}
+
+/* ------------- */
+/* Hide elements */
+/* ------------- */
+
+.hidden {
+  display: none !important;
 }

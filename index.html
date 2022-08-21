@@ -10,10 +10,19 @@
   <body>
     <!-- Header stores viewhighscores link and timer element -->
     <header>
-      <a href="#">View high scores</a>
-      <p id="#timer">Timer: 00</p>
+      <a href="./highscore.html">View high scores</a>
+      <p id="timer">Timer: 00</p>
     </header>
     <main class="quiz">
+      <section class="start-menu">
+        <h1>Coding Quiz Challenge</h1>
+        <p>
+          Try to answer the following code-related questions within the time
+          limit Keep in mind that incorrect answers will penalize your
+          score/time by ten seconds!
+        </p>
+        <button onclick="startQuiz()">Start Quiz</button>
+      </section>
       <!-- main section contains questions and answer buttons -->
       <section class="questions">
         <h3>Test question</h3>
