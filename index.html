@@ -25,13 +25,29 @@
       </section>
       <!-- main section contains questions and answer buttons -->
       <section class="questions">
-        <h3>Test question</h3>
+        <h3 id="quiz-question">Test question</h3>
       </section>
       <section class="quiz-answers">
-        <button>First choice</button>
-        <button>Second choice</button>
-        <button>Third choice</button>
-        <button>Fourth choice</button>
+        <button type="button" class="choice" id="choiceOne">
+          First choice
+        </button>
+        <button type="button" class="choice" id="choiceTwo">
+          Second choice
+        </button>
+        <button type="button" class="choice" id="choiceThree">
+          Third choice
+        </button>
+        <button type="button" class="choice" id="choiceFour">
+          Fourth choice
+        </button>
+      </section>
+      <section class="start-menu highscore-form">
+        <form>
+          <h3 class="score-end">""</h3>
+          <label>Initials</label>
+          <input type="text" id="#userInput" />
+          <button onclick="saveInput()">Submit</button>
+        </form>
       </section>
       <div class="answer-status">
         <p>Correct answer</p>

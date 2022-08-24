@@ -77,6 +77,7 @@ header a {
 .questions h3 {
   padding-bottom: 10vh;
   width: 30%;
+  font-size: 30px;
 }
 
 .quiz-answers {
@@ -105,9 +106,20 @@ header a {
 .answer-status {
   text-align: center;
   font-weight: lighter;
-  border-bottom: 1px solid rgba(37, 30, 38, 75);
+  border-top: 1px solid rgba(37, 30, 38, 75);
   color: rgba(37, 30, 38, 75);
   font-size: 20px;
+}
+
+.highscore-form label {
+  font-weight: bold;
+  font-size: 20px;
+}
+.highscore-form h3 {
+  font-size: 30px;
+}
+.highscore-form input {
+  height: 5vh;
 }
 
 /* ------------- */
